@@ -1,0 +1,76 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #faf9f6;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+
+  .main {
+    flex:1;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  footer {
+    text-align: right;
+  }
+
+  #logo {
+    width: 150px;
+  }
+
+  span {
+    color:rgb(229, 55, 85);
+  }
+
+  .rubrikbild {
+    width: 350px;
+    height: 260px;
+    margin-right: 20px;
+    border-radius: 3%; 
+    filter:drop-shadow(4px 4px 6px gray);
+    float: left;
+    object-fit: cover;
+    width:100%; 
+
+  }
+
+  .kort {
+    width:45%;  
+  }
+
+  .vänster {
+    float:left
+  }
+
+  .höger {
+    float:right
+  }
+
+  @media (max-width: 680px) {
+    #logo {
+      width: 100px;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+
+    .kort {
+      width:100%; 
+      display:block;
+      margin-bottom: 30px;
+      text-align:justify
+    }
+
+    .kort img {
+      width:100%; 
+      display:inline;
+      margin-bottom: 10px;
+    }
+  }
